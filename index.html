@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Dự báo thời tiết</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="container">
+		<h1>Dự báo thời tiết</h1>
+		<form>
+			<label for="city">Thành phố:</label>
+			<input placeholder="🔍" type="text" id="city" name="city" required>
+			<button type="submit">Tìm kiếm</button>
+		</form>
+		<div id="weather">
+			<label for="">City</label>
+			<p class="city_name"></p>
+			<label for="">temperature</label>
+			<p class="city_temperature"></p>
+			<label for="">description</label>
+			<p class="city_description"></p>
+		</div>
+		<div class="footer">
+        <div>
+			<label for="">humidity</label><p class="humidity"></p>
+		</div>
+        <div>
+			<label for="">windspeed</label><p class="windspeed"></p>
+		</div>
+		</div>
+	</div>
+	<script src="scritpt.js"></script>
+</body>
+
+</html>
